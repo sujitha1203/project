@@ -8,7 +8,7 @@ import bg from '../d1.jpg';
 
 function AutoLayout() {
   return (
-    <Container className='headercontainer' style = {{background:`url(${bg})`}} >
+    <Container className='headercontainer' style = {{background:`url(${bg})`}}>
       <Row>
         <Col> <Navbar /> </Col>
         <Col> <Test /> </Col>
